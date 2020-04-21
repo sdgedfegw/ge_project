@@ -1,0 +1,281 @@
+/*@import url("https://fonts.google.com/specimen/Roboto+Mono");*/
+
+body {
+	font-family: 'Slabo 27px', serif;
+	font-size: 16px;
+	/*background-image:url('../img/background.jpg');
+	background-attachment: fixed;
+	background-size: auto;*/
+	width: 100%;
+	margin: 0px;
+	
+}
+p{
+	margin-bottom: 0px;
+}
+
+ul , li {
+	list-style: none;	
+}
+a {
+	text-decoration:none;
+}
+
+h3, p {
+	 color: #a34a4a;
+}
+#menu-top {
+	height: 70px;
+	width: 100%;
+	background: #dbcece;
+	display: block;
+	position: fixed;
+}
+
+
+#main h2 {
+	font-weight: bold;
+	font-size: 40px;
+	margin:100px 0px; ;
+	text-align: center;
+	color: #a34a4a;
+}
+#main #list-nyc h2{
+	font-weight: bold;
+	margin:100px 0px 50px 0px; ;
+	text-align: center;
+}
+
+#main #contact h2{
+	margin:100px 0px 40px 0px; ;
+	text-align: center;
+	font-weight: bold;
+}
+#banner {
+	margin-top: 70px;
+	display: inline-block;
+	height: 750px;
+	width: 100%;
+	background-image:url('../img/background.jpg');
+	
+}
+/*#banner img {
+	display: inline-block;
+	width: 100%;
+	height: 750px;
+}*/
+#main {
+
+	width: 100%;
+	height: auto;
+	
+}
+
+#main #about {
+
+	margin-top: 20px;
+	width: 100%;
+	height: 500px;
+	
+}
+
+
+
+#main #contact {
+	margin:50px 0px;
+	border-top: 2px dashed #c01b1b; 
+	clear: both;
+	width: 100%;
+	height: 550px;
+	display: block;
+	
+}
+#main #contact .video-contact {
+	width: 50%;
+	height: 550px;
+	float: left;
+
+
+}
+#main #contact .video-contact video {
+	
+	height: 350px;
+	width: 90%;
+	margin: 70px 0px 0px 40px;
+	
+}
+#main #contact .video-contact p{
+	text-align: center;
+	padding-top: 20px;
+	
+	font-style: italic;
+
+}
+#main #contact .text-contact{
+	width: 50%;
+	height: 550px;
+	float: right;
+	
+}
+
+#main #contact .text-contact h2{
+	font-weight: normal;
+	text-align: center;
+	font-size: 30px;
+	margin: 170px 50px 0px 40px;
+	line-height: 50px;
+	/*word-break: break-all;*/
+}
+
+#main #contact .text-contact p {
+	font-style: italic;
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+	font-weight: 550;
+	font-size: 16px;
+}
+#footer {
+	clear: both;
+	width: 100%;
+	height: 70px;
+	background: #625b5b;
+}
+
+#footer p{
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #e5d2d2;
+}
+
+#menu-top img {
+	margin-left: 30px;
+	overflow-y: auto;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	display: inline-block;
+	
+}
+#menu-top span{
+	color: #e06d6d;
+	font-size: 22px;
+	display: inline-block;
+	position: absolute;
+	padding: 20px 0 0 10px;
+
+}
+#menu-top ul {
+	float: right;
+	clear: both;
+	padding: 0 35% 0 0;
+	margin: 0px;
+}
+#menu-top ul li {
+	padding: 0px 30px;
+	float: left;
+}
+
+#menu-top ul li a{
+	text-decoration: none;
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	color: #8e1221;
+	font-size: 20px;
+}
+
+#menu-top ul li a:hover{
+	font-size: 22px;
+	color: #e42525;
+	font-weight: bold;
+}
+
+
+
+#main #about .text-about {
+	height: 400px;
+	width: 50%;
+	float: left;
+}
+
+#main #about .img-about{
+	width: 50%;
+	float: left;
+	height: 500px;
+}
+#main #about .img-about img {
+
+	margin: 21px 0px 25px 150px;
+	width: 60%;
+	height: 80%;
+}
+
+#main #about .img-about p {
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+}
+#main #about .text-about h2{
+	text-align: center;
+	line-height: 45px;
+	font-size: 30px;
+
+	font-weight: normal;
+	margin: 170px 50px 0px 70px;
+}
+#main #about .text-about p {
+	font-style: italic;
+	text-align: center;
+	margin: -150px 0px 0px 0px;
+	font-weight: 550;
+	font-size: 16px;
+
+}
+#main #list-nyc {
+	margin-top: 50px;
+	border-top: 2px dashed #c01b1b; 
+	width: 100%;
+	height: auto;
+	
+	clear: both;
+	display: inline-block;
+}
+
+#list-nyc ul {
+	
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+}
+#list-nyc ul li{
+	display: inline-block;
+	margin-left: 100px;
+	padding: 70px 0px 40px 20px;
+	float: left;
+	 
+}
+
+#list-nyc ul li img{
+	height: 300px;
+	width: 300px;
+
+}
+
+#list-nyc ul li h3{
+	padding-top: 40px;
+	text-align: center;
+
+	font-weight: bold;
+}
+
+#list-nyc ul li p {
+	text-align: center;
+	max-width: 300px;
+	max-height: 150px;
+	word-break: all;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+
